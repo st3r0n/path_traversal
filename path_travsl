@@ -1,4 +1,18 @@
 1. simple case 
 just use ../../../file
 
-2.
+2.using absolute path
+just directly use the file name
+
+3.when ../ is stripped
+use ....// or ....\/
+
+4.usin url encoce
+encode ../ single or multilpe times
+
+5.validation of start path
+the firectory must start with a specific path or directory
+/var/www/images/../../../etc/passwd
+
+6.using null byte
+../../../etc/passwd%00.png
